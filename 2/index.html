@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEF Painting Services - Professional Painting & Construction</title>
+    <meta name="description" content="Professional painting and construction services in the US. Interior, exterior, residential, and commercial painting solutions.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="img/logo.png" alt="AEF Painting Services Logo" class="logo">
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Professional Painting & Construction Services</h1>
+                <p class="hero-subtitle">Transform your space with our expert painting and construction solutions. Quality workmanship, reliable service, and exceptional results guaranteed.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="get-quote-btn">Get Free Quote</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('portfolio')">View Our Work</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/img1.jpeg" alt="Professional painting services" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About AEF Painting Services</h2>
+                <p class="section-subtitle">Your trusted partner for all painting and construction needs</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Excellence in Every Brushstroke</h3>
+                    <p>With years of experience in the painting and construction industry, AEF Painting Services has built a reputation for delivering exceptional quality and outstanding customer service. We specialize in both residential and commercial projects, ensuring every job is completed to the highest standards.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Licensed & Insured</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Free Estimates</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Quality Guarantee</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Experienced Team</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="img/img2.jpeg" alt="Professional painting team" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive painting and construction solutions for all your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Residential Painting</h3>
+                    <p>Interior and exterior painting for homes, apartments, and condos. We use premium paints and materials for lasting results.</p>
+                    <ul>
+                        <li>Interior wall painting</li>
+                        <li>Exterior house painting</li>
+                        <li>Ceiling painting</li>
+                        <li>Trim and molding</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Commercial Painting</h3>
+                    <p>Professional painting services for offices, retail spaces, warehouses, and commercial buildings.</p>
+                    <ul>
+                        <li>Office painting</li>
+                        <li>Retail space painting</li>
+                        <li>Warehouse painting</li>
+                        <li>Industrial coatings</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Construction & Renovation</h3>
+                    <p>Complete construction and renovation services including drywall, finishing, and general contracting.</p>
+                    <ul>
+                        <li>Drywall installation</li>
+                        <li>Surface preparation</li>
+                        <li>Finishing work</li>
+                        <li>General contracting</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Specialty Finishes</h3>
+                    <p>Custom finishes and decorative painting techniques to create unique and stunning visual effects.</p>
+                    <ul>
+                        <li>Texture painting</li>
+                        <li>Faux finishes</li>
+                        <li>Decorative painting</li>
+                        <li>Color consultation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Work</h2>
+                <p class="section-subtitle">See the quality and craftsmanship in our recent projects</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="img/img1.jpeg" alt="Residential painting project" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h4>Modern Home Interior</h4>
+                        <p>Complete interior painting</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/img2.jpeg" alt="Commercial painting project" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h4>Office Building Exterior</h4>
+                        <p>Commercial exterior painting</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/img3.jpeg" alt="Renovation project" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h4>Kitchen Renovation</h4>
+                        <p>Complete kitchen makeover</p>
+                    </div>
+                </div>
+                <div class="portfolio-item video-item">
+                    <video muted loop class="portfolio-img" data-src="img/video1.mp4">
+                        <source src="img/video1.mp4" type="video/mp4">
+                    </video>
+                    <div class="portfolio-overlay">
+                        <h4>Work in Progress</h4>
+                        <p>Professional painting process</p>
+                    </div>
+                    <div class="play-button">▶</div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/img1.jpeg" alt="Exterior painting project" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h4>House Exterior Makeover</h4>
+                        <p>Complete exterior transformation</p>
+                    </div>
+                </div>
+                <div class="portfolio-item video-item">
+                    <video muted loop class="portfolio-img" data-src="img/video2.mp4">
+                        <source src="img/video2.mp4" type="video/mp4">
+                    </video>
+                    <div class="portfolio-overlay">
+                        <h4>Professional Techniques</h4>
+                        <p>Quality craftsmanship demonstration</p>
+                    </div>
+                    <div class="play-button">▶</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Don't just take our word for it - hear from our satisfied customers</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"AEF Painting Services did an amazing job on our home exterior. The team was professional, punctual, and the quality of work exceeded our expectations. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <span>Homeowner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"We hired AEF for our office renovation and they delivered exceptional results. The project was completed on time and within budget. Great communication throughout the process."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <span>Business Owner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Outstanding service from start to finish. The team was clean, efficient, and the attention to detail was impressive. Our kitchen looks absolutely beautiful!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Emily Rodriguez</h4>
+                            <span>Homeowner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get Your Free Quote Today</h2>
+                <p class="section-subtitle">Ready to transform your space? Contact us for a free estimate</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Call or Text</h4>
+                            <p>+1 (603) 557-0706</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@aefpaintingservices.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Service Area</h4>
+                            <p>New Hampshire & Surrounding Areas</p>
+                        </div>
+                    </div>
+                    <div class="contact-buttons">
+                        <button class="btn btn-whatsapp" id="whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i>
+                            Message on WhatsApp
+                        </button>
+                        <button class="btn btn-sms" id="sms-btn">
+                            <i class="fas fa-sms"></i>
+                            Send Text Message
+                        </button>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Select Service</option>
+                                <option value="residential-interior">Residential Interior Painting</option>
+                                <option value="residential-exterior">Residential Exterior Painting</option>
+                                <option value="commercial">Commercial Painting</option>
+                                <option value="construction">Construction & Renovation</option>
+                                <option value="specialty">Specialty Finishes</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell us about your project..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="img/logo.png" alt="AEF Painting Services" class="footer-logo">
+                    <p>Professional painting and construction services you can trust. Quality workmanship, reliable service, and exceptional results.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Residential Painting</a></li>
+                        <li><a href="#services">Commercial Painting</a></li>
+                        <li><a href="#services">Construction & Renovation</a></li>
+                        <li><a href="#services">Specialty Finishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +1 (603) 557-0706</li>
+                        <li><i class="fas fa-envelope"></i> info@aefpaintingservices.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> New Hampshire, USA</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AEF Painting Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Contact AEF Painting Services</h3>
+            <p>Choose your preferred way to get in touch:</p>
+            <div class="modal-buttons">
+                <button class="btn btn-whatsapp" id="modal-whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                    WhatsApp Message
+                </button>
+                <button class="btn btn-sms" id="modal-sms">
+                    <i class="fas fa-sms"></i>
+                    Text Message
+                </button>
+            </div>
+            <div class="modal-info">
+                <p><strong>Phone/Text:</strong> +1 (603) 557-0706</p>
+                <p>We'll respond to your message as soon as possible!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

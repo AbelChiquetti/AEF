@@ -170,7 +170,6 @@ a:hover {
 
 .nav-logo img {
     width: 50px;
-    border-radius: 8px;
 }
 
 .nav-menu {
@@ -487,15 +486,83 @@ section {
     font-weight: bold;
 }
 
-/* Gallery Section */
+/* Gallery Section - Before/After Comparisons */
 .gallery {
     background: var(--gray-100);
 }
 
-.gallery-grid {
+.before-after-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.comparison-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.comparison-item {
+    position: relative;
+    aspect-ratio: 4/3;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-base);
+}
+
+.comparison-item:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.comparison-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition-base);
+}
+
+.comparison-label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: rgba(26, 54, 93, 0.9);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.5px;
+    box-shadow: var(--shadow-sm);
+}
+
+.comparison-item.after .comparison-label {
+    background: rgba(237, 137, 54, 0.9);
+}
+
+/* Videos Section */
+.videos-section {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.videos-section h3 {
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    font-size: 1.75rem;
+}
+
+.videos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .gallery-item {
@@ -920,7 +987,12 @@ section {
         grid-template-columns: 1fr;
     }
     
-    .gallery-grid {
+    .comparison-row {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    }
+    
+    .videos-grid {
         grid-template-columns: 1fr;
     }
     
@@ -984,6 +1056,25 @@ section {
         right: 1rem;
         width: 45px;
         height: 45px;
+    }
+    
+    .before-after-grid {
+        gap: 2rem;
+    }
+    
+    .comparison-row {
+        gap: 0.25rem;
+    }
+    
+    .comparison-label {
+        top: 8px;
+        left: 8px;
+        padding: 0.25rem 0.75rem;
+        font-size: 0.75rem;
+    }
+    
+    .videos-section h3 {
+        font-size: 1.5rem;
     }
 }
 
